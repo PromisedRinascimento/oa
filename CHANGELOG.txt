@@ -7,7 +7,6 @@ VERSION 1.2.0
 * Corrección: colores de estado (Jira, Token, Excel, Environment) no se mostraban correctamente.
 * Corrección: WorkerInicializar no emitía finished() en caso de error, dejando la ventana de carga visible.
 * Seguridad: credenciales removidas del código fuente (model_kur.py).
-* Tema "uwu" añadido al selector de estilos.
 
 VERSION 1.1.0
 * Primera versión pública funcional.
