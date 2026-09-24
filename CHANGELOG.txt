@@ -1,0 +1,19 @@
+VERSION 1.2.0
+* Pestaña "Avanzado" con gestión de base de datos, logs y chequeo de versiones.
+* Detección automática de nuevas versiones al iniciar la aplicación.
+* Ventana de cambios de versión con contenido descargado desde GitHub.
+* Re-login automático de Jira cuando falla el cierre o comentario de un ticket.
+* Base de datos SQLite de casos conocidos (exportar/importar/reiniciar desde Avanzado).
+* Corrección: colores de estado (Jira, Token, Excel, Environment) no se mostraban correctamente.
+* Corrección: WorkerInicializar no emitía finished() en caso de error, dejando la ventana de carga visible.
+* Seguridad: credenciales removidas del código fuente (model_kur.py).
+* Tema "uwu" añadido al selector de estilos.
+
+VERSION 1.1.0
+* Primera versión pública funcional.
+* Respuesta de tickets con casos conocidos.
+* Integración con Jira (buscar, mover, resolver, comentar tickets).
+* Integración con UIV/OM para información de servicios.
+* Primera Respuesta automática con notificaciones de escritorio y Telegram.
+* Gestión de turnos con Firebase.
+* Exportación de actividades a Excel.
